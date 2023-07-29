@@ -45,5 +45,8 @@
 <symbol id="icon-arrow-left" viewBox="0 0 58 32">
 <path d="M17.6 2.144l-17.6 13.856 17.6 13.856v-11.456h40v-4.8h-40v-11.456z"></path>
 </symbol>
+<symbol id="icon-arrow-up" viewBox="0 0 17 32">
+<path d="M0 9.778l8.533-9.778 8.533 9.778h-7.055v22.222h-2.956v-22.222h-7.055z"></path>
+</symbol>
   </defs>
 </svg>

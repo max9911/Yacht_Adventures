@@ -119,6 +119,7 @@ tr {
 
 .swiper {
     width: 335px;
+    height: 529px;
 
 }
 
@@ -147,6 +148,7 @@ tr {
     flex-direction: column;
     gap: 24px;
     margin-bottom: 24px;
+    height: 469px;
 }
 
 
@@ -294,7 +296,16 @@ tr {
     content: none;
 }
 
+@media only screen and (max-width: 767.98px) {
+    .swiper-button-next {
+        right: var(--swiper-navigation-sides-offset, 33%);
+    }
 
+    .swiper-button-prev {
+        left: var(--swiper-navigation-sides-offset, 33%);
+    }
+
+}
 
 @media only screen and (max-width: 1279.98px) {
 
@@ -317,4 +328,52 @@ tr {
     .swiper-button-next {
         transform: translateX(-40%);
     }
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 32px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: var(--light-green);
+    width: 44px;
+    height: 44px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+@media only screen and (min-width: 768px) {
+    #myBtn {
+        bottom: 328px;
+        width: 68px;
+        height: 68px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #myBtn {
+        bottom: 328px;
+    }
+}
+
+.icom-arrow-up{
+    width: 8px;
+    height: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+   .icom-arrow-up{
+        width: 16px;
+        height: 30px;
+  }
+}
+
+#myBtn:hover {
+    background-color: #88B3B9;
 }
