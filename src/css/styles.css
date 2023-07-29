@@ -5,21 +5,108 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
+@import url('./hero.css');
+@import url('./aboutblock.css');
+@import url('./yahtsblock.css');
+@import url('./serviceblock.css');
+@import url('./rentblock.css');
+@import url('./reviewsblock.css');
 @import url('./header.css');
+@import url('./backtotop.css');
+@import url('./footer.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: DM Sans, sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.2;
   font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
+  --white: #f6f5ef;
+  --light-green: #93abae;
+  --linear_green: 107deg, #bec7c2 0%, #a1b5ba 100%;
+  --dark_blue: #11131f;
+  --blue_2: #1f212d;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('../font/DMSans-Medium.eot');
+  src: url('../font/DMSans-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../font/DMSans-Medium.woff2') format('woff2'),
+    url('../font/DMSans-Medium.woff') format('woff'),
+    url('../font/DMSans-Medium.ttf') format('truetype'),
+    url('../font/DMSans-Medium.svg#DMSans-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('../font/DMSans-Regular.eot');
+  src: url('../font/DMSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../font/DMSans-Regular.woff2') format('woff2'),
+    url('../font/DMSans-Regular.woff') format('woff'),
+    url('../font/DMSans-Regular.ttf') format('truetype'),
+    url('../font/DMSans-Regular.svg#DMSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('../font/DMSans-Bold.eot');
+  src: url('../font/DMSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../font/DMSans-Bold.woff2') format('woff2'),
+    url('DMSans-Bold.woff') format('woff'),
+    url('../font/DMSans-Bold.ttf') format('truetype'),
+    url('../font/DMSans-Bold.svg#DMSans-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('../font/DMSans-MediumItalic.eot');
+  src: url('../font/DMSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('../font/DMSans-MediumItalic.woff2') format('woff2'),
+    url('../font/DMSans-MediumItalic.woff') format('woff'),
+    url('../font/DMSans-MediumItalic.ttf') format('truetype'),
+    url('../font/DMSans-MediumItalic.svg#DMSans-MediumItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+
+body {
+  background-color: var(--dark_blue);
+  font-family: 'DM Sans';
+  font-style: normal;
+  color: var(--white);
+}
+
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Tablet screen */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+/* Desktop screen */
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
 }
