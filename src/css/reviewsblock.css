@@ -73,20 +73,6 @@
 
 /* Reviews Cards */
 
-.reviews-cards {
-  border-radius: 24px;
-  background: var(--blue_2);
-  display: flex;
-  width: 335px;
-  height: auto;
-  flex-direction: column;
-  align-items: center;
-  flex-shrink: 0;
-  padding-bottom: 24px;
-  padding-top: 24px;
-  margin: 0 auto;
-}
-
 /* .reviews-cards {
   border-radius: 24px;
   background: var(--blue_2);
@@ -99,8 +85,22 @@
   padding-bottom: 24px;
   padding-top: 24px;
   margin: 0 auto;
-  outline: 2px solid red; потім видалити
 } */
+
+.reviews-cards {
+  border-radius: 24px;
+  background: var(--blue_2);
+  display: flex;
+  width: 335px;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
 
 @media only screen and (min-width: 768px) {
   .reviews-cards {
