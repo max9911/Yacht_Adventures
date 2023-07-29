@@ -1,141 +1,142 @@
 .container {
-    min-width: 320px;
-    max-width: 375px;
-    padding: 0 20px;
-    margin: 0 auto;
-    background-color: #1F212D;
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+  background-color: #1f212d;
 }
 
 .hero-title {
-    color: var(--white, #F6F5EF);
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 1.10;
-    letter-spacing: -1.62px;
-    max-width: 332px;
-    margin-bottom: 14px;
+  color: var(--white, #f6f5ef);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -1.62px;
+  max-width: 332px;
+  margin-bottom: 14px;
 }
 
 .hero-title-span {
-    background: var(--linear-green, linear-gradient(107deg, #BEC7C2 0%, #A1B5BA 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: var(
+    --linear-green,
+    linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hero-text {
-    color: var(--white, #F6F5EF);
-    font-family: DM Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.40;
-    letter-spacing: -0.28px;
-    max-width: 332px;
-    margin-bottom: 24px;
+  color: var(--white, #f6f5ef);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.28px;
+  max-width: 332px;
+  margin-bottom: 24px;
 }
 
 .hero-img-background {
-    background-image: url(../img/hero-mask.png);
-    background-size: 100% 427px;
-    background-repeat: no-repeat;
-
-    height: 427px;
+  background-image: url(../img/hero/hero-mask.png);
+  background-size: 100% 427px;
+  background-repeat: no-repeat;
+  height: 427px;
 }
 
 .hero-list-buttons {
-    display: flex;
-    gap: 11px;
-    margin-bottom: 40px;
+  display: flex;
+  gap: 11px;
+  margin-bottom: 40px;
 }
 
 .btn-text {
-    color: var(--white, #F6F5EF);
-    font-family: DM Sans;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.10;
-    letter-spacing: -0.81px;
-    cursor: pointer;
-    height: 43px;
+  color: var(--white, #f6f5ef);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.81px;
+  cursor: pointer;
+  height: 43px;
 }
 
 .hero-btn-started {
-    border-radius: 60px;
-    border: none;
-    background: var(--light-green, #93ABAE);
-    min-width: 130px;
+  border-radius: 60px;
+  border: none;
+  background: var(--light-green, #93abae);
+  min-width: 130px;
 }
 
 .hero-btn-explore {
-    border-radius: 60px;
-    border: 1px solid var(--white, #F6F5EF);
-    background: transparent;
-    min-width: 104px;
+  border-radius: 60px;
+  border: 1px solid var(--white, #f6f5ef);
+  background: transparent;
+  min-width: 104px;
 }
 
 /* -------- hero-clients -------------*/
 
 .hero-clients {
-    padding: 24px 24px 48px 24px;
+  padding: 24px 24px 48px 24px;
 }
 
 .hero-list-clients {
-    display: flex;
-    gap: -5px;
-    
+  display: flex;
+  gap: -5px;
 }
 
 .hero-item-client {
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
-    border-radius: 48px;
-    border: 2px solid #93ABAE;
-    overflow: hidden;
-    background-color: #E3E3E3;
-    margin-bottom: 11px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  border: 2px solid #93abae;
+  overflow: hidden;
+  background-color: #e3e3e3;
+  margin-bottom: 11px;
 }
 
 .img-client {
-    max-width: 60px;
+  max-width: 60px;
 }
 
 .hero-clients-title {
-    color: #11131F;
-    font-size: 14px;
-        font-weight: 700;
-        line-height: 1.10;
-        letter-spacing: 0.56px;
-        text-transform: uppercase;
-        margin-bottom: 52px;
+  color: #11131f;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  margin-bottom: 52px;
 }
 
 .hero-yaht-img {
-    margin-bottom: 14px;
+  margin-bottom: 14px;
 }
 
 .hero-list {
-    display: flex;
-    align-items: center;
-    gap: 14px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
 }
 
 .hero-list-price {
-    color: #11131F;
-        font-family: DM Sans;
-        font-size: 48px;
-        line-height: 1.10;
-        letter-spacing: -2.16px;
-        text-transform: uppercase;
+  color: #11131f;
+  font-family: DM Sans;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -2.16px;
+  text-transform: uppercase;
 }
 
 .hero-list-text {
-    color: #11131F;
-        font-size: 14px;
-        line-height: 1.40;
-        letter-spacing: -0.63px;
+  color: #11131f;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: -0.63px;
 }
 
 /* @media screen and (min-width: 375px) {
@@ -146,6 +147,8 @@
 
 } */
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+}
 
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+}
