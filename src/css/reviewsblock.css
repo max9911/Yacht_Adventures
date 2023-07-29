@@ -129,6 +129,8 @@
     letter-spacing: -0.24px;
 }
 
+
+/*Swiper*/
 .swiper {
     max-width: 375px;
     height: auto;
@@ -155,9 +157,6 @@
 }
 }
 
-
-
-
   @media only screen and (min-width: 768px) {
     .swiper-slide{
         display: flex;
@@ -167,7 +166,6 @@
 
   @media only screen and (min-width: 1280px) {
     .swiper-slide{
-        display: flex;
         gap: 32px;
       }
   }
