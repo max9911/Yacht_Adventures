@@ -121,6 +121,7 @@
   transition: transform 250ms ease-in-out;
 
   padding: 0 20px;
+  overflow: hidden;
 }
 
 .menu-container.is-open {
