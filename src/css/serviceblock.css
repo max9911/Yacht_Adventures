@@ -11,8 +11,7 @@
 .service-img {
   border-radius: 40px;
   background: linear-gradient(0deg, var(--dark_blue) 0%, var(--dark_blue) 100%),
-    url(<path-to-image>),
-    lightgray -15.688px -136.978px / 138.209% 164.622% no-repeat;
+    no-repeat;
 }
 .service-subtitle {
   position: absolute;
