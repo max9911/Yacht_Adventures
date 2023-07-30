@@ -45,6 +45,19 @@
   margin-bottom: 40px;
 }
 
-.about-block-img:not(:last-child) {
+.ab-wrapper {
+  position: relative;
+  margin-bottom: 146px;
+}
+
+.about-block-img {
   margin: 0 auto 24px auto;
+}
+
+.ab-img-last {
+  margin-left: auto;
+  position: absolute;
+  bottom: -268px;
+  right: 0;
+  z-index: -1;
 }
