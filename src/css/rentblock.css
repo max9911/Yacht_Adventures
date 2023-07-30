@@ -3,12 +3,12 @@
    ================ */
 
 .rentblock {
-  position: relative;
-  overflow: hidden;
 
 }
 
 .rentblock-container {
+  position: relative;
+   overflow: hidden;
   display: flex;
   flex-direction: column;
   padding-bottom: 60px;
@@ -58,12 +58,9 @@ label textarea {
 .rentblock-input {
   padding: 0;
   border: 0;
+  height: 16px;
   background-color: var(--dark-blue, #11131F);
   border-bottom: 1px solid #F6F5EF;
-}
-
-.rentblock-input {
-  height: 16px;
 }
 
 textarea.rentblock-input {
@@ -182,6 +179,7 @@ textarea.rentblock-input {
           Modal window
       ================= */
 .backdrop {
+  z-index: 999;
   position: fixed;
   left: 0;
   top: 0;
@@ -221,6 +219,7 @@ textarea.rentblock-input {
 }
 
 .modal-block {
+
   position: absolute;
   width: 335px;
   height: 396px;
