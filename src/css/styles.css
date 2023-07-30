@@ -87,6 +87,12 @@ body {
   color: var(--white);
 }
 
+/**
+  |============================
+  | container
+  |============================
+*/
+
 .container {
   min-width: 320px;
   max-width: 375px;
