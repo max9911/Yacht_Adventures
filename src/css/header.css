@@ -1,16 +1,16 @@
-.header {
+.header-section {
   background-color: var(--dark_blue);
   padding-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
-  .header {
+  .header-section {
     padding-bottom: 64px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .header {
+  .header-section {
     padding-bottom: 164px;
   }
 }
