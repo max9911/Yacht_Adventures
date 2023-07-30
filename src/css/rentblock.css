@@ -23,7 +23,7 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -1.62px;
-  color: #F6F5EF;
+  color: #f6f5ef;
   color: #f6f5ef;
 }
 
@@ -36,7 +36,7 @@
 .rentblock-label {
   display: flex;
   flex-direction: column;
-  color: var(--white, #F6F5EF);
+  color: var(--white, #f6f5ef);
   color: var(--white, #f6f5ef);
   font-size: 14px;
   font-weight: 500;
@@ -55,8 +55,8 @@ label textarea {
 .rentblock-input {
   padding: 0;
   border: 0;
-  background-color: var(--dark-blue, #11131F);
-  border-bottom: 1px solid #F6F5EF;
+  background-color: var(--dark-blue, #11131f);
+  border-bottom: 1px solid #f6f5ef;
   background-color: var(--dark-blue, #11131f);
   border-bottom: 1px solid #f6f5ef;
 }
@@ -75,15 +75,15 @@ textarea.rentblock-input {
   height: 43px;
   display: block;
   border-radius: 60px;
-  border: 1px solid var(--white, #F6F5EF);
+  border: 1px solid var(--white, #f6f5ef);
   border: 1px solid var(--white, #f6f5ef);
   display: flex;
   padding: 14px 28px;
   justify-content: center;
   align-items: center;
   gap: 16px;
-  background-color: var(--dark-blue, #11131F);
-  color: var(--white, #F6F5EF);
+  background-color: var(--dark-blue, #11131f);
+  color: var(--white, #f6f5ef);
   background-color: var(--dark-blue, #11131f);
   color: var(--white, #f6f5ef);
   font-size: 14px;
@@ -93,7 +93,7 @@ textarea.rentblock-input {
 }
 
 .rentblock-icon {
-  fill: var(--white, #F6F5EF);
+  fill: var(--white, #f6f5ef);
 }
 
 .ellips {
@@ -110,10 +110,9 @@ textarea.rentblock-input {
   flex-shrink: 0;
   border-radius: 283px;
   opacity: 0.6000000238418579;
-  background: #91AFBA;
+  background: #91afba;
   filter: blur(100px);
 }
-
 
 @media only screen and (min-width: 768px) {
   background: #91afba;
@@ -129,7 +128,6 @@ textarea.rentblock-input {
     flex-direction: row;
     padding-bottom: 100px;
   }
-
 
   .rentblock {
     padding: 0 32px;
@@ -153,7 +151,6 @@ textarea.rentblock-input {
   .rentblock-title {
     font-size: 60px;
     line-height: 1.1;
-    letter-spacing: -2.7px
     letter-spacing: -2.7px;
   }
 
@@ -174,27 +171,26 @@ textarea.rentblock-input {
 }
 
 @media only screen and (min-width: 1280px) {
-   .rentblock-container {
-    padding-bottom: 164px;
-
-  }
-  .container.rentblock-container{
-padding-left: 0;
-  padding-right: 0;
   .rentblock-container {
     padding-bottom: 164px;
   }
+  .container.rentblock-container {
+    padding-left: 0;
+    padding-right: 0;
+    .rentblock-container {
+      padding-bottom: 164px;
+    }
 
-  .rentblock-rent {
-    margin-right: 188px;
-  }
+    .rentblock-rent {
+      margin-right: 188px;
+    }
 
-  label textarea {
-    margin-bottom: 64px;
-  }
+    label textarea {
+      margin-bottom: 64px;
+    }
 
-  .rentblock {
-    padding: 0 184px;
+    .rentblock {
+      padding: 0 184px;
+    }
   }
-}
 }
