@@ -1,10 +1,7 @@
 .service-block-container {
   padding-bottom: 80px;
 }
-.service-list {
-}
-.service-item {
-}
+
 .service-item:not(:last-child) {
   margin-bottom: 24px;
 }
