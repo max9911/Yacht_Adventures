@@ -32,7 +32,6 @@ p {
   background-color: var(--bgcolor);
   margin: 0 auto;
   padding: 40px 20px 14px 20px;
-
   color: var(--textcolor);
   overflow: hidden;
 }
@@ -59,8 +58,8 @@ p {
 
   min-width: 320px;
   max-width: 335px;
-  
-  padding-top: 44px; 
+
+  padding-top: 44px;
   padding-left: 0px;
   padding-right: 0px;
   background-color: var(--bgcolor);
@@ -70,7 +69,6 @@ p {
   .footer-block .container {
     min-width: 704px;
     padding-top: 64px;
-
   }
 }
 @media screen and (min-width: 1280px) {
