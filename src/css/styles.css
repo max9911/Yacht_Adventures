@@ -20,6 +20,7 @@
   font-size: 16px;
   line-height: 1.2;
   font-weight: 400;
+  --grey: #e3e3e3;
   --white: #f6f5ef;
   --light-green: #93abae;
   --linear_green: 107deg, #bec7c2 0%, #a1b5ba 100%;
