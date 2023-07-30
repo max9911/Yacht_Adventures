@@ -1,11 +1,7 @@
-/* ================
-   rentblock block
-   ================ */
-
 .rentblock {
   position: relative;
   overflow: hidden;
-
+  padding: 0 20px;
 }
 
 .rentblock-container {
@@ -28,6 +24,7 @@
   line-height: 1.1;
   letter-spacing: -1.62px;
   color: #F6F5EF;
+  color: #f6f5ef;
 }
 
 .rentblock-form {
@@ -40,6 +37,7 @@
   display: flex;
   flex-direction: column;
   color: var(--white, #F6F5EF);
+  color: var(--white, #f6f5ef);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.2;
@@ -59,6 +57,8 @@ label textarea {
   border: 0;
   background-color: var(--dark-blue, #11131F);
   border-bottom: 1px solid #F6F5EF;
+  background-color: var(--dark-blue, #11131f);
+  border-bottom: 1px solid #f6f5ef;
 }
 
 .rentblock-input {
@@ -76,6 +76,7 @@ textarea.rentblock-input {
   display: block;
   border-radius: 60px;
   border: 1px solid var(--white, #F6F5EF);
+  border: 1px solid var(--white, #f6f5ef);
   display: flex;
   padding: 14px 28px;
   justify-content: center;
@@ -83,6 +84,8 @@ textarea.rentblock-input {
   gap: 16px;
   background-color: var(--dark-blue, #11131F);
   color: var(--white, #F6F5EF);
+  background-color: var(--dark-blue, #11131f);
+  color: var(--white, #f6f5ef);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
@@ -93,7 +96,11 @@ textarea.rentblock-input {
   fill: var(--white, #F6F5EF);
 }
 
-/* .ellips {
+.ellips {
+  fill: var(--white, #f6f5ef);
+}
+
+.ellips {
   position: absolute;
   bottom: -25px;
   right: -105px;
@@ -105,15 +112,29 @@ textarea.rentblock-input {
   opacity: 0.6000000238418579;
   background: #91AFBA;
   filter: blur(100px);
-} */
+}
 
 
 @media only screen and (min-width: 768px) {
+  background: #91afba;
+  filter: blur(100px);
+}
+
+@media only screen and (min-width: 768px) {
+  .rentblock {
+    padding: 0 32px;
+  }
 
   .rentblock-container {
     flex-direction: row;
     padding-bottom: 100px;
   }
+
+
+  .rentblock {
+    padding: 0 32px;
+  }
+
   .rentblock-rent {
     max-width: 271px;
     gap: 32px;
@@ -133,6 +154,7 @@ textarea.rentblock-input {
     font-size: 60px;
     line-height: 1.1;
     letter-spacing: -2.7px
+    letter-spacing: -2.7px;
   }
 
   .rentblock-label {
@@ -159,6 +181,8 @@ textarea.rentblock-input {
   .container.rentblock-container{
 padding-left: 0;
   padding-right: 0;
+  .rentblock-container {
+    padding-bottom: 164px;
   }
 
   .rentblock-rent {
@@ -172,4 +196,5 @@ padding-left: 0;
   .rentblock {
     padding: 0 184px;
   }
+}
 }
