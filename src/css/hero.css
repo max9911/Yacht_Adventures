@@ -1,3 +1,12 @@
+
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
 .hero-title {
   color: var(--white, #f6f5ef);
   font-size: 36px;
@@ -20,9 +29,7 @@
 
 .hero-text {
   color: var(--white, #f6f5ef);
-  font-family: DM Sans;
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.4;
   letter-spacing: -0.28px;
   max-width: 332px;
@@ -34,6 +41,7 @@
   background-size: 100% 427px;
   background-repeat: no-repeat;
   height: 427px;
+  position: relative;
 }
 
 .hero-list-buttons {
@@ -44,12 +52,10 @@
 
 .btn-text {
   color: var(--white, #f6f5ef);
-  font-family: DM Sans;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.81px;
-  cursor: pointer;
   height: 43px;
 }
 
@@ -78,16 +84,37 @@
   gap: -5px;
 }
 
+.hero-client-left {
+  z-index: 3;
+  background-image: url(../img/hero/hero-client-1.jpg);
+  background-size: 155.791% 103.873%;
+  background-position: -13.39px 3.574px;
+}
+
+.hero-client-mid {
+  z-index: 2;
+  left: -7px;
+  background-image: url(../img/hero/hero-client-2.jpg);
+  background-size: 157.912% 105.357%;
+  background-position: -12.393px 0px;
+}
+
+.hero-client-right {
+  left: -14px;
+  background-image: url(../img/hero/hero-client-3.jpg);
+  background-size: 186.006% 124.019%;
+  background-position: -20.219px 4.067px;
+
+}
+
 .hero-item-client {
-  display: flex;
-  align-items: end;
-  justify-content: center;
   width: 48px;
   height: 48px;
   border-radius: 48px;
-  border: 2px solid #93abae;
-  overflow: hidden;
-  background-color: #e3e3e3;
+  border: 2px solid var(--light-green);
+  background-repeat: no-repeat;
+  background-color: var(--grey, #e3e3e3);
+  position: relative;
   margin-bottom: 11px;
 }
 
@@ -96,7 +123,7 @@
 }
 
 .hero-clients-title {
-  color: #11131f;
+  color: var(--dark_blue);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
@@ -105,7 +132,22 @@
   margin-bottom: 52px;
 }
 
+.client-yaht {
+  width: 133px;
+  height: 133px;
+  border-radius: 24px;
+  background-image: url(../img/hero/hero-client-4.jpg);
+  background-repeat: no-repeat;
+  background-size: 258.356% 172.321%;
+  background-position: -60.185px -38.132px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  right: -12px;
+  top: 35px;
+}
+
 .hero-yaht-img {
+
   margin-bottom: 14px;
 }
 
@@ -116,8 +158,7 @@
 }
 
 .hero-list-price {
-  color: #11131f;
-  font-family: DM Sans;
+  color: var(--dark_blue);
   font-size: 48px;
   line-height: 1.1;
   letter-spacing: -2.16px;
@@ -125,19 +166,11 @@
 }
 
 .hero-list-text {
-  color: #11131f;
+  color: var(--dark_blue);
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: -0.63px;
 }
-
-/* @media screen and (min-width: 375px) {
-
-    .container {
-        max-width: 375px;
-    }
-
-} */
 
 @media screen and (min-width: 768px) {
 }
