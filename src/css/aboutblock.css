@@ -45,10 +45,6 @@
   margin-bottom: 40px;
 }
 
-/* .about-block-img {
-  margin: 0 auto;
-} */
-
 .about-block-img:not(:last-child) {
   margin: 0 auto 24px auto;
 }
