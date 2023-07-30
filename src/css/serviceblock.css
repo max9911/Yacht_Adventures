@@ -1,0 +1,33 @@
+.service-block-container {
+  padding-bottom: 80px;
+}
+.service-list {
+}
+.service-item {
+}
+.service-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+.service-thumb {
+  position: relative;
+}
+.service-img {
+  border-radius: 40px;
+  background: linear-gradient(0deg, var(--dark_blue) 0%, var(--dark_blue) 100%),
+    url(<path-to-image>),
+    lightgray -15.688px -136.978px / 138.209% 164.622% no-repeat;
+}
+.service-subtitle {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -0.63px;
+  border-radius: 60px;
+  background: var(--white);
+  color: var(--dark_blue);
+  padding: 14px 28px;
+}
