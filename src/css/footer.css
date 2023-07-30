@@ -59,19 +59,23 @@ p {
 
   min-width: 320px;
   max-width: 335px;
-  padding-top: 41px;
+  
+  padding-top: 44px; 
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: var(--bgcolor);
 }
 
 @media screen and (min-width: 768px) {
   .footer-block .container {
     min-width: 704px;
     padding-top: 64px;
+
   }
 }
 @media screen and (min-width: 1280px) {
   .footer-block .container {
     max-width: 1216px;
-    padding-top: 64px;
   }
 }
 
