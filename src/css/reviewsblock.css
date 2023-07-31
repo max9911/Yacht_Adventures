@@ -79,24 +79,27 @@
   background: var(--blue_2);
   display: flex;
   width: 335px;
-  height: auto;
+  height: 208px;
+  
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;
-  padding-bottom: 24px;
-  padding-top: 24px;
+  padding: 24px;
   margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
   .reviews-cards {
     width: 344px;
+    height: 266px;
+    padding: 24px 12px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .reviews-cards {
     width: 384px;
+    height: 282px;
   }
 }
 
@@ -128,6 +131,21 @@
   letter-spacing: -0.24px;
 }
 
+@media only screen and (min-width: 767px) {
+   .reviews-text{
+    font-size: 16px;
+    letter-spacing: -0.32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .reviews-text{
+    font-size: 16px;
+    letter-spacing: -0.32px;
+  }
+}
+
+
 /*Swiper*/
 .swiper-box {
   max-width: 375px;
@@ -156,14 +174,14 @@
 }
 
 
-.reviews-block .swiper-pagination {
+ .swiper-pagination {
   position: relative;
   bottom: auto;
   text-align: center;
   margin-top: 10px;
 }
 
-.reviews-block .swiper-horizontal > .swiper-pagination-bullets,
+.swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
@@ -174,18 +192,21 @@
 }
 
 
-.reviews-block .reviews-block .swiper-pagination-bullet {
-  background-color: #1F212D;
-  
+.swiper-pagination-bullet {
   width: 13px;
   height: 13px;
-}
-
-.reviews-block .swiper-pagination-bullet-active {
-background-color: #88B3B9;
-
+  display: inline-block;
+  border-radius: 50%;
+  background-color: var(--blue_2);
 
 }
 
-.reviews-block .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-margin: 0 10px;}
+ .swiper-pagination-bullet-active {
+  background-color: var(--blu);
+
+
+}
+
+ .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+margin: 0 10px;
+background-color: var(--blu);}
