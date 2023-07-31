@@ -17,7 +17,12 @@
     <form class="rentblock-form" autocomplete="off">
       <label class="rentblock-label"
         >Full Name
-        <input class="rentblock-input" type="text" name="fullname" pattern="" />
+        <input
+          class="rentblock-input"
+          type="text"
+          name="fullname"
+          pattern="[A-z]{1,15}"
+        />
       </label>
 
       <label class="rentblock-label"
@@ -35,7 +40,7 @@
           class="rentblock-input"
           type="tel"
           name="phone"
-          pattern="2-[0-9]{3}-[0-9]{3}"
+          pattern="2[0-9]{3}-[0-9]{3}"
         />
       </label>
       <label class="rentblock-label"
@@ -43,7 +48,7 @@
         <textarea class="rentblock-input" name="comment"></textarea>
       </label>
 
-      <button class="rentblock-button" type="button" data-modal-open>
+      <button class="rentblock-button" type="submit" data-modal-open>
         Send
         <svg class="rentblock-icon" width="18" height="8.7">
           <use href="./img/rentblock/icons.svg#icon-Arrow"></use>
