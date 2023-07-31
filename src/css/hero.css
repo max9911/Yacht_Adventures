@@ -56,7 +56,6 @@
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.63px;
-  height: 43px;
 }
 
 .hero-btn-started:is(:hover,:focus){
@@ -68,6 +67,7 @@
   border: none;
   background: var(--light-green, #93abae);
   min-width: 130px;
+  height: 43px;
 }
 
 .hero-btn-explore:is(:hover,:focus) {
@@ -76,10 +76,13 @@
 }
 
 .hero-btn-explore {
+  display: block;
+  text-align: center;
   border-radius: 60px;
   border: 1px solid var(--white, #f6f5ef);
   background: transparent;
   min-width: 104px;
+  padding: 14px 28px;
 }
 
 /* -------- hero-clients -------------*/
@@ -208,6 +211,30 @@
   left: -283px;
 }
 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero-img-background {
+    background-image: url(../img/hero/hero-mask@2x.png);
+  }
+
+  .client-yaht {
+  background-image: url(../img/hero/hero-client-4@2x.jpg);
+}
+
+.hero-client-left {
+  background-image: url(../img/hero/hero-client-1@2x.jpg);
+}
+
+.hero-client-mid {
+  background-image: url(../img/hero/hero-client-2@2x.jpg);
+}
+
+.hero-client-right {
+  background-image: url(../img/hero/hero-client-3@2x.jpg);
+}
+
+}
 
 @media screen and (min-width: 768px) {
 
@@ -233,11 +260,12 @@
   .btn-text {
     font-size: 18px;
     letter-spacing: -0.81px;
-    height: 48px;
+  
   }
 
   .hero-btn-started {
     min-width: 150px;
+    height: 48px;
   }
 
   .hero-btn-explore {
