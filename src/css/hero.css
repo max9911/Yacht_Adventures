@@ -1,5 +1,4 @@
 
-
 .hero-container {
   display: flex;
   flex-direction: column;
@@ -18,6 +17,7 @@
 }
 
 .hero-title-span {
+  font-style: italic;
   background: var(
     --linear-green,
     linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%)
@@ -37,8 +37,9 @@
 }
 
 .hero-img-background {
+  height: 427px;
   background-image: url(../img/hero/hero-mask.png);
-  background-size: 100% 427px;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 427px;
   position: relative;
@@ -47,16 +48,19 @@
 .hero-list-buttons {
   display: flex;
   gap: 11px;
-  margin-bottom: 40px;
 }
 
 .btn-text {
   color: var(--white, #f6f5ef);
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
-  letter-spacing: -0.81px;
+  letter-spacing: -0.63px;
   height: 43px;
+}
+
+.hero-btn-started:is(:hover,:focus){
+  background: var(--blu)
 }
 
 .hero-btn-started {
@@ -64,6 +68,11 @@
   border: none;
   background: var(--light-green, #93abae);
   min-width: 130px;
+}
+
+.hero-btn-explore:is(:hover,:focus) {
+  border-color: var(--light-green);
+  color: var(--light-green);
 }
 
 .hero-btn-explore {
@@ -172,8 +181,161 @@
   letter-spacing: -0.63px;
 }
 
+.hero-blur-size {
+  width: 279px;
+  height: 279px;
+  transform: rotate(-44.916deg);
+  border-radius: 279px;
+}
+
+.hero-blur-first {
+  opacity: 0.8999999761581421;
+  background: #939CAC;
+  filter: blur(100px);
+  position: absolute;
+  z-index: -1;
+  bottom: 116px;
+  left: -123px;
+  }
+
+.hero-blur-second {
+  opacity: 0.6000000238418579;
+  background: #91AFBA;
+  filter: blur(100px);
+  position: absolute;
+  z-index: -1;
+  bottom: 149px;
+  left: -283px;
+}
+
+
 @media screen and (min-width: 768px) {
+
+  .hero-container {
+    gap: 64px;
+    margin-bottom: 100px;
+  }
+
+  .hero-title {
+    max-width: 698px;
+    margin-bottom: 16px;
+    font-size: 60px;
+    letter-spacing: -2.7px;
+  }
+
+  .hero-text {
+    max-width: 539px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+  }
+
+  .btn-text {
+    font-size: 18px;
+    letter-spacing: -0.81px;
+    height: 48px;
+  }
+
+  .hero-btn-started {
+    min-width: 150px;
+  }
+
+  .hero-btn-explore {
+    min-width: 117px;
+  }
+
+  .hero-img-background {
+    width: 426px;
+    height: 598px;
+  }
+
+  .hero-item-client {
+    width: 56px;
+    height: 56px;
+  }
+  
+  .client-yaht {
+    width: 233px;
+    height: 233px;
+    background-position: -105.437px -66.802px;
+    right: -146px;
+    top: 32px;
+  }
+
+  .hero-clients-title {
+    margin-bottom: 111px;
+  }
+
+  .hero-yaht-img {
+    width: 378px;
+    margin-bottom: 37px;
+  }
+
+  .hero-list-price {
+    font-size: 60px;
+    letter-spacing: -2.7px;
+  }
+
+  .hero-list-text {
+    font-size: 18px;
+    letter-spacing: -0.81px;
+  }
+
+  .hero-blur-size {
+    width: 414px;
+    height: 414px;
+    transform: rotate(-44.094deg);
+    border-radius: 414px;
+  }
+
+  .hero-blur-first {
+    left: -219px;
+    bottom: 51px;
+  }
+  
+  .hero-blur-second {
+    left: -454px;
+     bottom: 115px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+
+  .hero-container {
+    margin-bottom: 164px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .container-title {
+    padding-top: 68px;
+  }
+
+  .hero-title {
+    max-width: 554px;
+  }
+
+  .hero-blur-first {
+    left: -48px;
+    bottom: -38px;
+  }
+  
+  .hero-blur-second {
+    left: -284px;
+    bottom: 22px;
+  }
+
+  .hero-blur-third {
+    width: 316px;
+    height: 316px;
+    transform: rotate(-45.074deg);
+    border-radius: 316px;
+    opacity: 0.30000001192092896;
+    background: #A6A9B2;
+    filter: blur(100px);
+    position: absolute;
+    z-index: -1;
+    right: -82px;
+    bottom: 99px;
+  }
 }
