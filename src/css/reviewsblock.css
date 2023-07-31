@@ -19,7 +19,7 @@
 .reviews-h3 {
   font-size: 24px;
   font-weight: 500;
-  line-height: 120%; /* 28.8px */
+  line-height: 1.2;
   letter-spacing: -1.08px;
   padding-bottom: 24px;
 }
@@ -47,7 +47,7 @@
 .reviews-content {
   font-size: 14px;
   font-weight: 400;
-  line-height: 140%; /* 19.6px */
+  line-height: 1,4; /* 19.6px */
   letter-spacing: -0.28px;
 
   padding-bottom: 40px;
@@ -111,7 +111,7 @@
 .reviews-subtitle {
   text-align: center;
   font-weight: 500;
-  line-height: 110%; /* 17.6px */
+  line-height: 1.1; /* 17.6px */
   letter-spacing: -0.72px;
 
   padding-top: 18px;
@@ -124,7 +124,7 @@
   text-align: center;
   font-size: 12px;
   font-weight: 400;
-  line-height: 140%; /* 16.8px */
+  line-height: 1.4; /* 16.8px */
   letter-spacing: -0.24px;
 }
 
@@ -156,19 +156,36 @@
 }
 
 
-.swiper-pagination {
+.reviews-block .swiper-pagination {
   position: relative;
   bottom: auto;
   text-align: center;
   margin-top: 10px;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets,
+.reviews-block .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-  bottom: var(--swiper-pagination-bottom, 8px);
-  top: var(--swiper-pagination-top, auto);
+  bottom:  8px;
+  top: auto;
   left: 0;
   width: 100%;
 }
+
+
+.reviews-block .reviews-block .swiper-pagination-bullet {
+  background-color: #1F212D;
+  
+  width: 13px;
+  height: 13px;
+}
+
+.reviews-block .swiper-pagination-bullet-active {
+background-color: #88B3B9;
+
+
+}
+
+.reviews-block .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+margin: 0 10px;}
