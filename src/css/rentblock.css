@@ -3,11 +3,11 @@
    ================ */
 
 .rentblock {
-
+position: relative;
 }
 
 .rentblock-container {
-  position: relative;
+
    overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -281,7 +281,7 @@ textarea.rentblock-input {
   height: 142px;
   transform: rotate(-45.074deg);
   flex-shrink: 0;
-  fill: #91AFBA;
+  background-color: #91AFBA;
   opacity: 0.6;
   filter: blur(100px);
 }
