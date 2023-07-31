@@ -1,0 +1,69 @@
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 32px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: var(--light-green);
+    width: 44px;
+    height: 44px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+@media only screen and (min-width: 768px) {
+    #myBtn {
+        bottom: 328px;
+        width: 68px;
+        height: 68px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #myBtn {
+        bottom: 328px;
+    }
+}
+
+.icom-arrow-up {
+    fill: var(--white);
+    stroke: var(--white);
+    color: var(--white);
+}
+
+.tablet-arrow {
+    display: none;
+}
+
+.pc-arrow {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .tablet-arrow {
+        display: flex;
+    }
+
+    .phone-arrow {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .tablet-arrow {
+        display: none;
+    }
+
+    .pc-arrow {
+        display: flex;
+    }
+}
+
+#myBtn:hover {
+    background-color: #88B3B9;
+}
