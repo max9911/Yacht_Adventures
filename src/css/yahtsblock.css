@@ -1,4 +1,5 @@
 body {
+
   color: var(--white);
   margin: 0 auto;
 }
@@ -7,6 +8,8 @@ img {
   display: block;
   margin: 0;
 }
+
+
 
 a,
 p,
@@ -26,10 +29,13 @@ tr {
 .yacht-block {
   padding-bottom: 80px;
   margin: 0 auto;
+
 }
+
 
 @media only screen and (min-width: 768px) {
   .yacht-block {
+
     padding-bottom: 100px;
   }
 }
@@ -65,6 +71,7 @@ tr {
     font-size: 100px;
     line-height: 110%;
     letter-spacing: -4.5px;
+
   }
 }
 
@@ -72,7 +79,7 @@ tr {
   display: block;
   width: 131px;
   height: 43px;
-  padding: 14px 28px;
+  padding: 14px 0;
   align-items: flex-start;
   border-radius: 60px;
   border: 1px solid var(--white);
@@ -82,6 +89,7 @@ tr {
   line-height: 110%;
   letter-spacing: -0.63px;
   margin-bottom: 80px;
+  text-align: center;
 }
 
 .rent-yacht:hover,
@@ -106,26 +114,30 @@ tr {
   }
 }
 
-.swiper {
+
+.yacht-block .swiper {
   width: 335px;
   height: 529px;
+
 }
 
 @media only screen and (min-width: 768px) {
-  .swiper {
+  .yacht-block .swiper {
     width: 704px;
     height: 576px;
+
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .swiper {
+  .yacht-block .swiper {
     width: 1098px;
     position: relative;
   }
 }
 
-.swiper-slide {
+
+.yacht-block .swiper-slide {
   background-color: var(--blue_2);
   width: 335px;
   padding: 18px 18px 24px 18px;
@@ -137,8 +149,9 @@ tr {
   height: 469px;
 }
 
+
 @media only screen and (min-width: 768px) {
-  .swiper-slide {
+  .yacht-block .swiper-slide {
     width: 344px;
     padding: 16px 16px 32px 16px;
     height: 508px;
@@ -147,28 +160,29 @@ tr {
 }
 
 @media only screen and (min-width: 1280px) {
-  .swiper-slide {
+  .yacht-block .swiper-slide {
     width: 354px;
   }
 }
 
-.swiper-slide img {
+.yacht-block .swiper-slide img {
   border-radius: 24px;
   overflow: hidden;
   width: 299px;
 }
 
 @media only screen and (min-width: 768px) {
-  .swiper-slide img {
+  .yacht-block .swiper-slide img {
     width: 312px;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .swiper-slide img {
+  .yacht-block .swiper-slide img {
     width: 322px;
   }
 }
+
 
 .yacht-info {
   display: flex;
@@ -198,7 +212,7 @@ tr {
   text-transform: uppercase;
 }
 
-.swiper-slide p {
+.yacht-block .swiper-slide p {
   opacity: 0.5;
   font-size: 12px;
   line-height: 118%;
@@ -245,6 +259,7 @@ tr {
 }
 
 @media only screen and (min-width: 768px) {
+
   .swiper-button-next,
   .swiper-button-prev {
     width: 50px;
@@ -278,6 +293,7 @@ tr {
 }
 
 @media only screen and (max-width: 1279.98px) {
+
   .swiper-button-next,
   .swiper-button-prev {
     top: var(--swiper-navigation-top-offset, 100%);
@@ -301,6 +317,7 @@ tr {
   .swiper-button-prev {
     left: var(--swiper-navigation-sides-offset, 33%);
   }
+
 }
 
 @media only screen and (min-width: 1280px) {
@@ -324,6 +341,7 @@ tr {
   border-radius: 8px;
   cursor: pointer;
   border-radius: 8px;
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -353,5 +371,5 @@ tr {
 }
 
 #myBtn:hover {
-  background-color: #88b3b9;
+  background-color: #88B3B9;
 }
