@@ -129,22 +129,24 @@
 }
 
 /*Swiper*/
-.swiper {
+.swiper-box {
   max-width: 375px;
   height: auto;
 }
 
 @media only screen and (min-width: 768px) {
-  .swiper {
+  .swiper-box {
     max-width: 704px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .swiper {
+  .swiper-box {
     max-width: 1216px;
   }
 }
+
+
 
 @media only screen and (min-width: 1280px) {
   .reviews-slides {
@@ -153,35 +155,6 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .swiper-slide {
-    display: flex;
-    gap: 16px;
-  }
-  .swiper-slide {
-    display: flex;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .swiper-slide {
-    display: flex;
-    gap: 16px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .swiper-slide {
-    gap: 32px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .swiper-slide {
-    display: flex;
-    gap: 32px;
-  }
-}
 
 .swiper-pagination {
   position: relative;
