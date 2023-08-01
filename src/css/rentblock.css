@@ -296,7 +296,7 @@ textarea.rentblock-input {
 
 .modal-ellips {
   position: absolute;
-  top: 35px;
+  top: 65px;
   left: 95px;
   width: 142px;
   height: 142px;
@@ -351,7 +351,7 @@ textarea.rentblock-input {
   .modal-ellips{
     width: 265px;
     height: 265px;
-    top: 50px;
+    top: 65px;
     left: 150px;
     border-radius: 265px;
   }
