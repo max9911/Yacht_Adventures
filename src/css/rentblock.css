@@ -7,7 +7,7 @@ position: relative;
 }
 
 .rentblock-container {
-position: relative;
+
    overflow: hidden;
   display: flex;
   flex-direction: column;
