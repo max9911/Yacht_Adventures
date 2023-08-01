@@ -1,3 +1,5 @@
+
+
 body {
 
   color: var(--white);
@@ -20,6 +22,10 @@ td,
 tr {
   margin: 0;
   padding: 0;
+}
+
+button {
+  font-family: DM Sans;
 }
 
 .link {
@@ -46,23 +52,33 @@ tr {
   }
 }
 
+.yacht-hl-block {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .yacht-hl-block {
+    gap: 64px;
+  }
+}
+
 .hd-yacht {
-  max-width: 882px;
+  max-width: 310px;
   font-size: 36px;
-  font-style: normal;
   font-weight: 500;
   line-height: 110%;
   letter-spacing: -1.62px;
   display: block;
-  margin: 0 auto;
-  margin-bottom: 40px;
+  font-family: DM Sans;
 }
 
 @media only screen and (min-width: 768px) {
   .hd-yacht {
     font-size: 70px;
-    letter-spacing: -3.15px;
-    margin-bottom: 64px;
+    letter-spacing: -1.15px;
+    max-width: 640px;
   }
 }
 
@@ -70,8 +86,9 @@ tr {
   .hd-yacht {
     font-size: 100px;
     line-height: 110%;
-    letter-spacing: -4.5px;
-
+    letter-spacing: -3.5px;
+    max-width: 882px;
+    margin: 0 auto;
   }
 }
 
@@ -84,6 +101,7 @@ tr {
   border-radius: 60px;
   border: 1px solid var(--white);
   color: var(--white);
+  font-family: DM Sans;
   font-size: 14px;
   font-weight: 700;
   line-height: 110%;
@@ -159,10 +177,11 @@ tr {
   border-radius: 60px;
   border: 1px solid var(--white);
   display: inline-flex;
-  padding: 14px 14px;
+  padding: 14px 0;
   width: 46px;
   height: 36px;
   color: var(--white);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media only screen and (min-width: 768px) {
@@ -171,7 +190,7 @@ tr {
   .swiper-button-prev {
     width: 50px;
     height: 36px;
-    padding: 14px 16px;
+    padding: 14px 0;
   }
 }
 
@@ -183,10 +202,15 @@ tr {
   color: var(--light-green);
 }
 
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  height: 8px;
+  width: 18px;
+}
+
 .arrow-icon {
   fill: var(--white);
-  width: 18px;
-  height: 8px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .swiper-button-next:hover .arrow-icon,
@@ -352,6 +376,7 @@ tr {
   padding-bottom: 0;
 }
 
+
 .yacht-mask {
   position: absolute;
   z-index: -1;
@@ -401,31 +426,16 @@ tr {
   .yacht-circle-one {
     width: 399px;
     height: 399px;
-    transform: rotate(-45.044deg);
-    flex-shrink: 0;
     border-radius: 399px;
-    opacity: 0.6;
-    background: #93abae;
-    filter: blur(100px);
-    position: absolute;
     top: -10%;
     left: 12%;
-    z-index: 999;
   }
 
   .yacht-circle-two {
     width: 304px;
     height: 304px;
-    transform: rotate(-45.044deg);
-    flex-shrink: 0;
     border-radius: 316px;
-    opacity: 0.3;
-    background: #93abae;
-    filter: blur(100px);
-    position: absolute;
     top: -10%;
-    left: 50%;
-    z-index: 999;
   }
 }
 
@@ -433,30 +443,15 @@ tr {
   .yacht-circle-one {
     width: 414px;
     height: 414px;
-    transform: rotate(-45.044deg);
-    flex-shrink: 0;
     border-radius: 414px;
-    opacity: 0.6;
-    background: #93abae;
-    filter: blur(100px);
-    position: absolute;
     top: -25%;
     left: 25%;
-    z-index: 999;
   }
 
   .yacht-circle-two {
     width: 316px;
     height: 316px;
-    transform: rotate(-45.044deg);
-    flex-shrink: 0;
     border-radius: 316px;
-    opacity: 0.3;
-    background: #93abae;
-    filter: blur(100px);
-    position: absolute;
     top: -25%;
-    left: 50%;
-    z-index: 999;
   }
 }
