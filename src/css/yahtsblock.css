@@ -1,9 +1,9 @@
 
-
 body {
 
   color: var(--white);
   margin: 0 auto;
+
 }
 
 img {
@@ -40,7 +40,6 @@ button {
   padding-bottom: 80px;
   margin: 0 auto;
   overflow-x: hidden;
-
 }
 
 
