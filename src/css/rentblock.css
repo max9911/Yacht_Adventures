@@ -2,13 +2,12 @@
    rentblock block
    ================ */
 
-.rentblock{
-position: relative;
+.rentblock {
+  position: relative;
 }
 
 .rentblock-container {
-
-   overflow: hidden;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   padding-bottom: 60px;
@@ -27,7 +26,7 @@ position: relative;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -1.62px;
-  color: #F6F5EF;
+  color: #f6f5ef;
 }
 
 .rentblock-form {
@@ -39,7 +38,7 @@ position: relative;
 .rentblock-label {
   display: flex;
   flex-direction: column;
-  color: var(--white, #F6F5EF);
+  color: var(--white, #f6f5ef);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.2;
@@ -48,7 +47,7 @@ position: relative;
 
 label input {
   margin-bottom: 24px;
-  color: var(--white, #F6F5EF);
+  color: var(--white, #f6f5ef);
 }
 
 label textarea {
@@ -60,17 +59,17 @@ label textarea {
   border: 0;
   height: 16px;
   background-color: transparent;
-  border-bottom: 1px solid #F6F5EF;
+  border-bottom: 1px solid #f6f5ef;
 }
-.rentblock-input:focus{
-outline: 0;
-outline-offset: 0;
+.rentblock-input:focus {
+  outline: 0;
+  outline-offset: 0;
 }
 
 textarea.rentblock-input {
   height: 58px;
   resize: none;
-  color: #F6F5EF;
+  color: #f6f5ef;
 }
 
 .rentblock-button {
@@ -78,14 +77,14 @@ textarea.rentblock-input {
   height: 43px;
   display: block;
   border-radius: 60px;
-  border: 1px solid var(--white, #F6F5EF);
+  border: 1px solid var(--white, #f6f5ef);
   display: flex;
   padding: 14px 28px;
   justify-content: center;
   align-items: center;
   gap: 16px;
-  background-color: var(--dark-blue, #11131F);
-  color: var(--white, #F6F5EF);
+  background-color: var(--dark-blue, #11131f);
+  color: var(--white, #f6f5ef);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
@@ -93,7 +92,7 @@ textarea.rentblock-input {
 }
 
 .rentblock-icon {
-  fill: var(--white, #F6F5EF);
+  fill: var(--white, #f6f5ef);
 }
 
 .ellips {
@@ -106,13 +105,11 @@ textarea.rentblock-input {
   flex-shrink: 0;
   border-radius: 283px;
   opacity: 0.6;
-  background: #91AFBA;
+  background: #91afba;
   filter: blur(100px);
 }
 
-
 @media only screen and (min-width: 768px) {
-
   .rentblock-container {
     flex-direction: row;
     padding-bottom: 100px;
@@ -136,7 +133,7 @@ textarea.rentblock-input {
   .rentblock-title {
     font-size: 60px;
     line-height: 1.1;
-    letter-spacing: -2.7px
+    letter-spacing: -2.7px;
   }
 
   .rentblock-label {
@@ -153,21 +150,19 @@ textarea.rentblock-input {
     max-width: 132px;
     height: 48px;
   }
-  .ellips{
-
-    bottom:-25px;
+  .ellips {
+    bottom: -25px;
     right: -250px;
     width: 413px;
-      height: 413px;
-      transform: rotate(-44.094deg);
-     border-radius: 413px;
+    height: 413px;
+    transform: rotate(-44.094deg);
+    border-radius: 413px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .rentblock-container {
     padding-bottom: 164px;
-
   }
 
   .container.rentblock-container {
@@ -186,16 +181,15 @@ textarea.rentblock-input {
   .rentblock {
     padding: 0 184px;
   }
-  .ellips{
-    bottom:-7px ;
-      right:-167px ;
+  .ellips {
+    bottom: -7px;
+    right: -167px;
     width: 414px;
-      height: 414px;
-      transform: rotate(-45.074deg);
-      border-radius: 414px;
+    height: 414px;
+    transform: rotate(-45.074deg);
+    border-radius: 414px;
   }
 }
-
 
 /* ==================
           Modal window
@@ -207,8 +201,9 @@ textarea.rentblock-input {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(46, 47, 66, 0.40);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: rgba(46, 47, 66, 0.4);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
@@ -227,7 +222,7 @@ textarea.rentblock-input {
   position: absolute;
   top: 14px;
   right: 14px;
-  background-color: #1F212D;
+  background-color: #1f212d;
   border: 0;
   padding: 0;
 }
@@ -236,7 +231,7 @@ textarea.rentblock-input {
   display: flex;
   justify-content: center;
   align-items: center;
-  stroke: #F6F5EF;
+  stroke: #f6f5ef;
 }
 
 .modal-block {
@@ -244,18 +239,16 @@ textarea.rentblock-input {
   width: 335px;
   height: 396px;
   border-radius: 20px;
-  background: #1F212D;
+  background: #1f212d;
   padding: 40px 24px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   flex-shrink: 0;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12),
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .modal-img {
   display: flex;
@@ -278,7 +271,7 @@ textarea.rentblock-input {
 }
 
 .modal-title {
-  color: var(--white, #F6F5EF);
+  color: var(--white, #f6f5ef);
   font-size: 24px;
   font-weight: 500;
   line-height: 1.2;
@@ -287,7 +280,7 @@ textarea.rentblock-input {
 
 .modal-text {
   max-width: 100%;
-  color: var(--white, #F6F5EF);
+  color: var(--white, #f6f5ef);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.4;
@@ -302,7 +295,7 @@ textarea.rentblock-input {
   height: 142px;
   transform: rotate(-45.074deg);
   flex-shrink: 0;
-  background-color: #91AFBA;
+  background-color: #91afba;
   opacity: 0.6;
   filter: blur(100px);
   z-index: -1;
@@ -324,7 +317,6 @@ textarea.rentblock-input {
   .modal-text {
     font-size: 16px;
     letter-spacing: -0.36px;
-
   }
 
   .modal-title {
@@ -339,16 +331,16 @@ textarea.rentblock-input {
   .modal-img {
     margin-bottom: 21px;
   }
-    .modal-block-img {
-      width: 338px;
-      height: 198px;
-    }
+  .modal-block-img {
+    width: 338px;
+    height: 198px;
+  }
 
   .modal-icon {
     width: 24px;
     height: 24px;
   }
-  .modal-ellips{
+  .modal-ellips {
     width: 265px;
     height: 265px;
     top: 50px;
