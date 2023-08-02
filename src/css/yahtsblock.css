@@ -39,9 +39,7 @@ button {
 .yacht-block {
   padding-bottom: 80px;
   margin: 0 auto;
-
   overflow-x: hidden;
-
 }
 
 
@@ -389,7 +387,6 @@ button {
 .yacht-propeties tr:last-child td {
   padding-bottom: 0;
 }
-
 
 .yacht-mask {
   position: absolute;
