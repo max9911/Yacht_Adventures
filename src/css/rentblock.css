@@ -1,11 +1,14 @@
 /* ================
    rentblock block
    ================ */
-.rentblock{
 
+.rentblock{
+position: relative;
 }
+
 .rentblock-container {
 
+   overflow: hidden;
   display: flex;
   flex-direction: column;
   padding-bottom: 60px;
@@ -28,7 +31,6 @@
 }
 
 .rentblock-form {
-position: relative;
   width: 100%;
 
   display: flex;
