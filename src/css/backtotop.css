@@ -1,8 +1,8 @@
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 60px;
-  right: 243px;
+  bottom: 372px;
+  right: 202px;
   z-index: 99;
   border: none;
   outline: none;
@@ -19,16 +19,18 @@
 
 @media only screen and (min-width: 768px) {
   #myBtn {
-    bottom: 262px;
+    bottom: 292px;
+    right: 295px;
     width: 68px;
     height: 68px;
     padding: 0 26px;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1280px) {
   #myBtn {
-    bottom: 328px;
+    bottom: 270px;
+    right: 130px;
   }
 }
 
