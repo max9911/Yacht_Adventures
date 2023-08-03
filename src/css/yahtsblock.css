@@ -1,9 +1,9 @@
 
-
 body {
 
   color: var(--white);
   margin: 0 auto;
+
 }
 
 img {
@@ -32,11 +32,13 @@ button {
   text-decoration: none;
 }
 
+.position-bg {
+  position: relative;
+}
+
 .yacht-block {
   padding-bottom: 80px;
   margin: 0 auto;
-  position: relative;
-
 }
 
 
@@ -57,29 +59,38 @@ button {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  max-width: 310px;
 }
 
 @media only screen and (min-width: 768px) {
   .yacht-hl-block {
     gap: 64px;
+    max-width: 640px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .yacht-hl-block {
+    max-width: 882px;
+    margin: 0 auto;
   }
 }
 
 .hd-yacht {
-  max-width: 310px;
+
   font-size: 36px;
   font-weight: 500;
   line-height: 110%;
   letter-spacing: -1.62px;
   display: block;
-  font-family: DM Sans;
 }
 
 @media only screen and (min-width: 768px) {
   .hd-yacht {
     font-size: 70px;
-    letter-spacing: -1.15px;
-    max-width: 640px;
+    letter-spacing: -3.15px;
+
+
   }
 }
 
@@ -87,7 +98,7 @@ button {
   .hd-yacht {
     font-size: 100px;
     line-height: 110%;
-    letter-spacing: -3.5px;
+    letter-spacing: -4.5px;
     max-width: 882px;
     margin: 0 auto;
   }
@@ -182,7 +193,6 @@ button {
   width: 46px;
   height: 36px;
   color: var(--white);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media only screen and (min-width: 768px) {
@@ -211,7 +221,7 @@ button {
 
 .arrow-icon {
   fill: var(--white);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  stroke: var(--white);
 }
 
 .swiper-button-next:hover .arrow-icon,
@@ -377,12 +387,11 @@ button {
   padding-bottom: 0;
 }
 
-
 .yacht-mask {
   position: absolute;
   z-index: -1;
-  top: 10%;
-  left: 12%;
+  top: 75px;
+  left: 0;
   opacity: 0.35;
 }
 
@@ -403,8 +412,8 @@ button {
   background: #93abae;
   filter: blur(100px);
   position: absolute;
-  top: -5%;
-  left: 10%;
+  top: -43px;
+  left: -80px;
   z-index: 999;
 }
 
@@ -418,8 +427,8 @@ button {
   background: #93abae;
   filter: blur(100px);
   position: absolute;
-  top: -5%;
-  left: 50%;
+  top: -29px;
+  left: 204px;
   z-index: 999;
 }
 
@@ -428,15 +437,16 @@ button {
     width: 399px;
     height: 399px;
     border-radius: 399px;
-    top: -10%;
-    left: 12%;
+    top: -92px;
+    left: 33px;
   }
 
   .yacht-circle-two {
     width: 304px;
     height: 304px;
     border-radius: 316px;
-    top: -10%;
+    top: -70px;
+    left: 447px;
   }
 }
 
@@ -445,14 +455,15 @@ button {
     width: 414px;
     height: 414px;
     border-radius: 414px;
-    top: -25%;
-    left: 25%;
+    top: -62px;
+    left: 20%;
   }
 
   .yacht-circle-two {
     width: 316px;
     height: 316px;
     border-radius: 316px;
-    top: -25%;
+    top: -39px;
+    left: 57%;
   }
 }
