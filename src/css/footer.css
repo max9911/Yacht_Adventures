@@ -211,6 +211,9 @@ p {
 
   line-height: 1.18;
   letter-spacing: 0.36px;
+  z-index: 100;
+  background-color: transparent;
+  
 }
 .elipse-1 {
   width: 420px;
@@ -225,7 +228,7 @@ p {
   position: absolute;
   top: 80%;
   left: 5%;
-  z-index: 999;
+  z-index: 99;
 }
 
 @media screen and (min-width: 768px) {
