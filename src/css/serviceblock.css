@@ -75,6 +75,7 @@
   .service-thumb-2 {
     position: relative;
     right: -43%;
+    display: inline-block;
   }
   .service-img-3 {
     width: 380px;
