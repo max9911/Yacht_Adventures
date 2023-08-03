@@ -29,10 +29,22 @@
 }
 
 .rentblock-form {
-  width: 443px;
+  width: 335px;
   position: relative;
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (min-width: minwidthpx) {
+  .rentblock-form {
+    width: 364px;
+  }
+}
+
+@media only screen and (min-width: minwidthpx) {
+  .rentblock-form {
+    width: 443px;
+  }
 }
 
 .rentblock-label {

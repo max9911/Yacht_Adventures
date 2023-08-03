@@ -1,17 +1,12 @@
-
 body {
-
   color: var(--white);
   margin: 0 auto;
-
 }
 
 img {
   display: block;
   margin: 0;
 }
-
-
 
 a,
 p,
@@ -41,10 +36,8 @@ button {
   margin: 0 auto;
 }
 
-
 @media only screen and (min-width: 768px) {
   .yacht-block {
-
     padding-bottom: 100px;
   }
 }
@@ -77,7 +70,6 @@ button {
 }
 
 .hd-yacht {
-
   font-size: 36px;
   font-weight: 500;
   line-height: 110%;
@@ -89,8 +81,6 @@ button {
   .hd-yacht {
     font-size: 70px;
     letter-spacing: -3.15px;
-
-
   }
 }
 
@@ -144,7 +134,6 @@ button {
   }
 }
 
-
 /*swiper block*/
 .swiper-block {
   width: auto;
@@ -165,7 +154,6 @@ button {
     height: 508px;
   }
 }
-
 
 .yacht-block .swiper {
   width: 335px;
@@ -196,7 +184,6 @@ button {
 }
 
 @media only screen and (min-width: 768px) {
-
   .swiper-button-next,
   .swiper-button-prev {
     width: 50px;
@@ -237,7 +224,6 @@ button {
 }
 
 @media only screen and (max-width: 1279.98px) {
-
   .swiper-button-next,
   .swiper-button-prev {
     bottom: 0;
@@ -261,7 +247,6 @@ button {
   .swiper-button-prev {
     left: var(--swiper-navigation-sides-offset, 33%);
   }
-
 }
 
 @media only screen and (min-width: 1280px) {
@@ -288,13 +273,18 @@ button {
   height: 469px;
 }
 
-
 @media only screen and (min-width: 768px) {
   .yacht-block .swiper-slide {
     width: 344px;
     padding: 16px 16px 32px 16px;
     height: 508px;
     gap: 32px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .swiper-wrapper {
+    width: 704px;
   }
 }
 
@@ -322,7 +312,6 @@ button {
     height: 268px;
   }
 }
-
 
 .yacht-info {
   display: flex;
@@ -398,7 +387,6 @@ button {
 @media only screen and (max-width: 1279.98px) {
   .yacht-mask {
     display: none;
-
   }
 }
 
